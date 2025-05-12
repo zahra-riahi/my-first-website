@@ -1,0 +1,63 @@
+.topic-section-wrapper{
+ background-image: url(download__2_-removebg-preview.png);
+ margin-top: 250px;
+ min-height: 500px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* opacity: .5; */
+} 
+.topic-section-wrapper .card-header{
+    overflow: hidden;
+}
+.topic-section-wrapper .card-header img{
+        transform: .5s ease-in;
+}
+.topic-section-wrapper .card img:hover{
+     transform: scale(1.1) rotate(8deg);
+}
+.topic-section-wrapper .card{
+    box-shadow: 1px 5px 15px 2px rgba(248, 167, 167, 0.336);
+}
+.card-body{
+    margin: 20px;
+}
+.topic-section-wrapper .card-body a{
+   font-size: 14px;
+
+}
+.card-body .post-date{
+ font-size: 14px;
+ top: -54px;
+ right: 3px;
+ width: 40px;
+ text-align: center;
+ color: #efefef;
+}
+.card-body .post-date :first-child{
+          background-color: rgba(255, 22, 22, 0.884);
+}
+.card-body .post-date :last-child{
+           background-color: #a3a0a0;
+}
+.card-body p{
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgb(17, 17, 17);
+}
+.topic-section-wrapper .card-footer ul{
+    border-top: 2px solid #a1a1a1;
+}
+.topic-section-wrapper .card-footer ul li{
+  display: inline-block;
+}
+.topic-section-wrapper .card-footer ul li i{
+    color: #e0e0e0;
+    font-size: 16px;
+    margin: 0px 6px;
+}
+.topic-section-wrapper .card-footer ul li span{
+    color: #868686;
+    font-size: 16px;
+    margin: 0px 3px;
+}
